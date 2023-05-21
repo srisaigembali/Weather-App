@@ -94,3 +94,18 @@
 .temperature h1 {
   font-size: 60px;
 }
+
+@media screen and (max-width: 400px) {
+  .section {
+    margin-bottom: 8px;
+  }
+
+  .section-inputs input {
+    margin-left: -12px;
+    margin-right: 5px;
+  }
+
+  .section-inputs button {
+    padding: 9px 10px;
+  }
+}
